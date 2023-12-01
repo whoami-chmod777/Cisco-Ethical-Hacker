@@ -55,3 +55,6 @@ Step 3: Deploy the VM in VirtualBox.
 2. Click **File** > **Import Appliance** to import the downloaded OVA file, **Kali.ova**. Click **Next** to continue.
 3. Review the appliance settings. Increase the amount of RAM if desired. Click **Finish** to continue.
 4. Click **Start** to power up the newly created VM after the appliance has been imported.
+
+
+Log into the Kali system with the username `kali` and the password `kali`.
