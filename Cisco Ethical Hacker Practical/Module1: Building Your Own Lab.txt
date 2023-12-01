@@ -1,0 +1,57 @@
+### Objectives
+
+In this lab, you will complete the following objectives:
+
+- Part 1: Deploying a Customized Kali Linux VM on AMD or Intel Chip-based Computer
+- Part 2: Deploying a Customized Kali Linux VM on ARM M1/M2 based MacOS Computer
+- Part 3: Exploring Linux
+
+
+### Background / Scenario
+
+Computing power and resources have increased tremendously in a short period of time. A benefit of multi-core processors and large amounts of RAM is the ability to run multiple operating systems on a computer using virtualization.
+
+With virtualization, one or more virtual computers can operate on a single physical computer. Virtual computers that run on physical computers are called virtual machines (VMs). Virtual 
+machines are often called guests, and physical computers are often called hosts. Anyone with a modern computer and operating system can run virtual machines.
+
+In this lab, you will first install a desktop virtualization application, such as Oracle VirtualBox, and deploy a virtual machine running a Kali Linux OS.
+
+
+### Required Resources
+
+- Computer with a minimum of 4 GB of RAM and 50 GB of free disk space
+- Internet access to download virtualization software, Oracle Virtualbox or UTM, and VM image
+
+
+### Instructions
+
+Even though most modern computers can support virtualization, if you are not sure, perform an internet search to determine the capability of virtualization on your PC and enable virtualization as necessary.
+
+Depending on the architecture of your PC, you will either use Oracle VirtualBox or UTM for your virtualization software.
+
+### Part 1: Deploying a Pre-Built Customized Kali VM on AMD or Intel Chip-based Computer
+
+**Note**: Go to the next part if you have M1/M2 MacOS or other ARM-based devices that can support UTM.
+
+
+Step 1: Download and install VirtualBox.
+
+VMware Workstation Player and VirtualBox are two virtualization programs that you can download and install to run the Kali VM file. In this lab, you will use the VirtualBox application.
+
+1. Navigate to https://www.virtualbox.org/. Click the download link on this page.
+2. Choose and download the appropriate installation file based on your operating system.
+3. After the VirtualBox installation file is downloaded, run the installer and accept the default installation settings.
+
+
+Step 2: Download the pre-built customized Kali.
+
+1. Navigate to the [Resource Hub](https://skillsforall.com/resources/lab-downloads?courseLang=en-US) from skillsforall.com.
+2. Download the OVA file for this course. Note the location of the downloaded OVA file on your computer.
+
+
+Step 3: Deploy the VM in VirtualBox.
+
+1. Open **VirtualBox**.
+2. Click **File** > **Import Appliance** to import the downloaded OVA file, **Kali.ova**. Click **Next** to continue.
+3. Review the appliance settings. Increase the amount of RAM if desired. Click **Finish** to continue.
+4. Click **Start** to power up the newly created VM after the appliance has been imported.
