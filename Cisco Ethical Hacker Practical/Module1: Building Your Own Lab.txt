@@ -45,7 +45,7 @@ VMware Workstation Player and VirtualBox are two virtualization programs that yo
 
 Step 2: Download the pre-built customized Kali.
 
-1. Navigate to the [Resource Hub](https://skillsforall.com/resources/lab-downloads?courseLang=en-US) from skillsforall.com.
+1. Navigate to the https://skillsforall.com/resources/lab-downloads?courseLang=en-US from skillsforall.com.
 2. Download the OVA file for this course. Note the location of the downloaded OVA file on your computer.
 
 
