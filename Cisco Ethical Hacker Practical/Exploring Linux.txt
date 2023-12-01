@@ -1,16 +1,12 @@
 
 -- Root Privileges --
 
-# Root Privileges
-
 visudo
 visudo: /etc/sudoers: Permission denied
-
 
 sudo visudo
 # Allow members of group sudo to execute any command
 %sudo   ALL=(ALL:ALL) ALL
-
 
 grep sudo /etc/group
 sudo:x:27:kali
