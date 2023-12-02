@@ -1,6 +1,13 @@
 
 -- Root Privileges --
 
+~ represents the current user’s home directory
+$ (dollar sign) indicates regular user privilege
+'#'(hashtag or pound sign) indicates elevated privilege (root user)
+(.) current directory
+(..) parent directory 
+
+
 visudo
 visudo: /etc/sudoers: Permission denied
 
