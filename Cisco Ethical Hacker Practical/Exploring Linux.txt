@@ -13,9 +13,10 @@ sudo:x:27:kali
 
 history
 
-$ history
+┌──(kali㉿Kali)-[~]
+└─$ history
     1  visudo
     2  sudo visudo
     3  grep sudo /etc/group
     4  history
-!3
+└─$ !3
